@@ -1,17 +1,14 @@
 
-:root{--p:#5b2a86;--b:#1f5fbf;--g:#2ea44f}
-body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f6f8fc;color:#222}
-.top{background:var(--p);color:#fff;text-align:center;padding:10px}
-nav{background:#fff;padding:16px;text-align:center;position:sticky;top:0;border-bottom:1px solid #ddd}
-nav a{margin:0 14px;text-decoration:none;color:#333;font-weight:700}
-.hero{background:linear-gradient(rgba(91,42,134,.85),rgba(31,95,191,.85));color:#fff;padding:120px 20px;text-align:center}
-.btn{display:inline-block;padding:14px 24px;border-radius:8px;color:#fff;text-decoration:none;margin:6px}
-.book{background:var(--g)} .call{background:var(--p)}
-.section{max-width:1200px;margin:auto;padding:60px 20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
-.card{background:#fff;border-radius:14px;padding:22px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
-.photo{height:180px;border-radius:10px;background:linear-gradient(135deg,#d9e6ff,#f0f3ff);display:flex;align-items:center;justify-content:center;font-weight:bold;color:#666}
-.review{font-style:italic}
-footer{background:#222;color:#fff;text-align:center;padding:30px}
-input,select,textarea{width:100%;padding:12px;margin:8px 0}
-button{background:var(--p);color:white;border:none;padding:14px 20px;border-radius:8px}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f5f5}
+.topbar{background:#5a2d82;color:white;padding:12px;text-align:center}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px;background:white}
+.logo{height:120px}
+nav a{margin:10px;text-decoration:none;color:#333;font-weight:bold}
+.heroimg{width:100%;display:block}
+.content{max-width:1200px;margin:auto;padding:30px}
+.btn{display:inline-block;background:#5a2d82;color:white;padding:12px 20px;text-decoration:none;border-radius:8px;margin:5px}
+.secondary{background:#1f5fbf}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:white;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+form input,form textarea{width:100%;padding:12px;margin:10px 0}
+button{background:#5a2d82;color:white;padding:12px 20px;border:none;border-radius:8px}
