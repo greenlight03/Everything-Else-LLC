@@ -1,0 +1,1 @@
+Upload index.html and style.css to your GitHub repository root.
