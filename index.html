@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,59 +9,74 @@
 </head>
 <body>
 
-<div class="topbar">
-📞 (407) 963-2780 | ✉️ everythingelsellc25@gmail.com | Mon-Sat 8AM-6PM
-</div>
-
-<header>
-<img src="logo.png" class="logo">
-<nav>
-<a href="#services">Services</a>
-<a href="#reviews">Reviews</a>
-<a href="#booking">Book Online</a>
-<a href="#contact">Contact</a>
-</nav>
+<header class="topbar">
+<div>(407) 963-2780</div>
+<div>everythingelsellc25@gmail.com</div>
+<div>Mon - Sat: 8:00 AM - 6:00 PM</div>
 </header>
 
-<section class="hero">
-<img src="hero-image.png" class="heroimg">
+<nav class="navbar">
+<img src="logo.png" class="logo">
+<div class="menu">
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+<a class="book-btn" href="#booking">Book Now</a>
+</div>
+</nav>
+
+<section class="hero" id="home">
+<div class="overlay">
+<h1>One Company. Many Solutions. Exceptional Service.</h1>
+<p>Professional cleaning, lawncare, moving and property services you can trust.</p>
+<a href="#booking" class="btn">Book A Service</a>
+<a href="tel:4079632780" class="btn secondary">Call Now</a>
+</div>
 </section>
 
-<section class="content">
-<h1>Everything Else LLC</h1>
-<h2>One Company. Many Solutions. Exceptional Service.</h2>
-
-<a class="btn" href="#booking">Book Now</a>
-<a class="btn secondary" href="tel:4079632780">Call Now</a>
-
-<h2 id="services">Our Services</h2>
-<div class="grid">
+<section id="services" class="section">
+<h2>Our Services</h2>
+<div class="cards">
 <div class="card">Residential Cleaning</div>
 <div class="card">Commercial Cleaning</div>
 <div class="card">Lawn Care</div>
 <div class="card">Moving Services</div>
+<div class="card">Junk Removal</div>
+<div class="card">Deep Cleaning</div>
 </div>
-
-<h2 id="reviews">Customer Reviews</h2>
-<div class="grid">
-<div class="card">★★★★★ Excellent service!</div>
-<div class="card">★★★★★ Professional and dependable.</div>
-<div class="card">★★★★★ Highly recommended.</div>
-</div>
-
-<h2 id="booking">Book Online</h2>
-<form action="https://formsubmit.co/info@everything-else-llc.com" method="POST">
-<input type="text" placeholder="Name" required>
-<input type="email" placeholder="Email" required>
-<textarea placeholder="Tell us what service you need"></textarea>
-<button type="submit">Submit Request</button>
-</form>
-
-<h2 id="contact">Contact</h2>
-<p>Phone: 228-239-3631</p>
-<p>Email: info@everything-else-llc.com</p>
-<p>Service Area: Gulfport, MS</p>
 </section>
+
+<section id="booking" class="section booking">
+<h2>Book Online</h2>
+<form>
+<input placeholder="Your Name">
+<input placeholder="Phone Number">
+<input placeholder="Email">
+<select><option>Select Service</option></select>
+<textarea placeholder="Tell us about your project"></textarea>
+<button type="submit">Request Service</button>
+</form>
+</section>
+
+<section id="reviews" class="section">
+<h2>Customer Reviews</h2>
+<div class="cards">
+<div class="card">★★★★★ Amazing service and professionalism!</div>
+<div class="card">★★★★★ Fast, reliable and affordable.</div>
+<div class="card">★★★★★ Highly recommend Everything Else LLC.</div>
+</div>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact Us</h2>
+<p>Phone: (407) 963-2780</p>
+<p>Email: everythingelsellc25@gmail.com</p>
+</section>
+
+<footer>
+© 2026 Everything Else LLC
+</footer>
 
 </body>
 </html>

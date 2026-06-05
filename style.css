@@ -1,14 +1,17 @@
 
-body{margin:0;font-family:Arial,sans-serif;background:#f5f5f5}
-.topbar{background:#5a2d82;color:white;padding:12px;text-align:center}
-header{display:flex;justify-content:space-between;align-items:center;padding:20px;background:white}
+body{margin:0;font-family:Arial,sans-serif}
+.topbar{background:#5a2a91;color:white;padding:12px;display:flex;justify-content:space-around}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:15px 30px;background:white}
 .logo{height:120px}
-nav a{margin:10px;text-decoration:none;color:#333;font-weight:bold}
-.heroimg{width:100%;display:block}
-.content{max-width:1200px;margin:auto;padding:30px}
-.btn{display:inline-block;background:#5a2d82;color:white;padding:12px 20px;text-decoration:none;border-radius:8px;margin:5px}
-.secondary{background:#1f5fbf}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:white;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
-form input,form textarea{width:100%;padding:12px;margin:10px 0}
-button{background:#5a2d82;color:white;padding:12px 20px;border:none;border-radius:8px}
+.menu a{margin:0 12px;text-decoration:none;color:#333;font-weight:bold}
+.book-btn,.btn{background:#6b35a8;color:white;padding:12px 20px;border-radius:6px;text-decoration:none}
+.hero{background:url('hero.png') center/cover;height:700px;display:flex;align-items:center;justify-content:center}
+.overlay{background:rgba(255,255,255,.82);padding:40px;text-align:center;max-width:900px}
+.overlay h1{font-size:58px;color:#274ea1}
+.section{padding:60px 20px;text-align:center}
+.cards{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
+.card{padding:25px;border:1px solid #ddd;border-radius:10px;width:250px}
+.booking form{max-width:700px;margin:auto;display:flex;flex-direction:column;gap:12px}
+.booking input,.booking textarea,.booking select{padding:12px}
+.booking button{padding:14px;background:#6b35a8;color:white;border:none}
+footer{background:#222;color:white;text-align:center;padding:20px}
