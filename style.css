@@ -1,14 +1,1 @@
-
-body{margin:0;font-family:Arial,sans-serif;line-height:1.5}
-.topbar{background:#5c2d91;color:#fff;padding:12px;display:flex;justify-content:center;gap:25px}
-.header{display:flex;justify-content:space-between;align-items:center;padding:20px 40px}
-nav a{text-decoration:none;color:#222;margin:0 10px}
-.hero{padding:100px 20px;text-align:center;background:linear-gradient(135deg,#f7f1ff,#eef4ff)}
-.btn{background:#5c2d91;color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none;display:inline-block;margin:5px}
-.alt{background:#1d5fd0}
-section{padding:60px 20px;max-width:1200px;margin:auto}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card,.photo{background:#f4f4f4;padding:25px;border-radius:10px}
-form input,form select,form textarea{width:100%;max-width:600px;padding:10px;margin:8px 0}
-button{padding:12px 20px;background:#5c2d91;color:white;border:none;border-radius:8px}
-footer{background:#222;color:#fff;text-align:center;padding:25px}
+body{font-family:Arial;margin:0}.topbar{background:#5b2a86;color:white;padding:12px;text-align:center}nav{text-align:center;padding:15px}
