@@ -1,5 +1,1 @@
-
-document.querySelector('form').addEventListener('submit',function(e){
-e.preventDefault();
-alert('Thank you for contacting Everything Else LLC!');
-});
+console.log('Everything Else LLC Premium Website');
