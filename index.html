@@ -6,86 +6,30 @@
 <title>Everything Else LLC</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{
-background:linear-gradient(135deg,#4c1d95,#1d4ed8,#312e81);
-color:white;
-min-height:100vh;
-}
-nav{
-padding:20px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:rgba(0,0,0,.25);
-backdrop-filter:blur(10px);
-}
-.hero{
-height:90vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-padding:20px;
-}
-.hero h1{font-size:4rem;margin-bottom:20px}
-.btn{
-display:inline-block;
-padding:16px 35px;
-background:#7c3aed;
-color:white;
-text-decoration:none;
-border-radius:40px;
-font-weight:bold;
-margin-top:20px;
-}
+body{background:linear-gradient(135deg,#4c1d95,#1e3a8a,#2563eb);color:white}
+nav{padding:20px 8%;display:flex;justify-content:space-between;background:rgba(0,0,0,.25)}
+.hero{min-height:90vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px}
+.hero h1{font-size:4rem}
+.btn{display:inline-block;padding:16px 32px;background:#7c3aed;color:#fff;text-decoration:none;border-radius:40px;margin-top:20px}
 .section{padding:80px 8%}
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
-}
-.card{
-background:rgba(255,255,255,.08);
-padding:25px;
-border-radius:18px;
-backdrop-filter:blur(10px);
-}
-.booking{
-max-width:700px;
-margin:auto;
-background:rgba(255,255,255,.08);
-padding:30px;
-border-radius:18px;
-}
-input,select,textarea{
-width:100%;
-padding:12px;
-margin:10px 0;
-border:none;
-border-radius:10px;
-}
-button{
-padding:14px 25px;
-border:none;
-border-radius:30px;
-background:#2563eb;
-color:white;
-cursor:pointer;
-}
-footer{text-align:center;padding:25px;}
+.cards,.pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:rgba(255,255,255,.08);padding:25px;border-radius:18px;backdrop-filter:blur(8px)}
+.price{font-size:2rem;font-weight:bold;margin:10px 0}
+form input,form select,form textarea{width:100%;padding:12px;margin:8px 0;border:none;border-radius:10px}
+button{padding:14px 25px;border:none;border-radius:30px;background:#2563eb;color:white}
+footer{text-align:center;padding:30px}
 </style>
 </head>
 <body>
-
 <nav>
 <h2>Everything Else LLC</h2>
-<div>228-239-3631</div>
+<div>info@everything-else-llc.com</div>
 </nav>
 
 <section class="hero">
 <div>
 <h1>Everything Else LLC</h1>
-<p>Professional Cleaning, Lawn Care, and Moving Services</p>
+<p>Residential Cleaning • Commercial Cleaning • Lawn Maintenance • Moving Assistance</p>
 <a href="#book" class="btn">Book Online</a>
 </div>
 </section>
@@ -93,16 +37,42 @@ footer{text-align:center;padding:25px;}
 <section class="section">
 <h2>Our Services</h2><br>
 <div class="cards">
-<div class="card"><h3>Residential Cleaning</h3><p>Homes, apartments, deep cleaning, and recurring service.</p></div>
-<div class="card"><h3>Commercial Cleaning</h3><p>Offices, retail spaces, and business facilities.</p></div>
-<div class="card"><h3>Lawn Maintenance</h3><p>Mowing, edging, trimming, and yard upkeep.</p></div>
-<div class="card"><h3>Moving Assistance</h3><p>Loading, unloading, packing, and moving help.</p></div>
+<div class="card"><h3>Residential Cleaning</h3><p>Weekly, bi-weekly, monthly, and deep cleaning.</p></div>
+<div class="card"><h3>Commercial Cleaning</h3><p>Office, retail, and facility cleaning services.</p></div>
+<div class="card"><h3>Lawn Maintenance</h3><p>Mowing, edging, trimming, and seasonal upkeep.</p></div>
+<div class="card"><h3>Moving Assistance</h3><p>Loading, unloading, packing, and furniture moving.</p></div>
+</div>
+</section>
+
+<section class="section">
+<h2>Pricing</h2><br>
+<div class="pricing">
+<div class="card">
+<h3>Residential Cleaning</h3>
+<div class="price">$125+</div>
+<p>Standard home cleaning starting price.</p>
+</div>
+<div class="card">
+<h3>Commercial Cleaning</h3>
+<div class="price">$250+</div>
+<p>Small office and business cleaning.</p>
+</div>
+<div class="card">
+<h3>Lawn Maintenance</h3>
+<div class="price">$60+</div>
+<p>Basic mowing and yard service.</p>
+</div>
+<div class="card">
+<h3>Moving Assistance</h3>
+<div class="price">$95/hr</div>
+<p>Two-person moving assistance team.</p>
+</div>
 </div>
 </section>
 
 <section class="section" id="book">
-<h2 style="text-align:center">Book Online</h2><br>
-<div class="booking">
+<h2>Book Online</h2><br>
+<div class="card">
 <form action="mailto:info@everything-else-llc.com" method="post" enctype="text/plain">
 <input type="text" placeholder="Full Name" required>
 <input type="email" placeholder="Email Address" required>
@@ -113,15 +83,14 @@ footer{text-align:center;padding:25px;}
 <option>Lawn Maintenance</option>
 <option>Moving Assistance</option>
 </select>
-<textarea rows="5" placeholder="Tell us about your project"></textarea>
+<textarea rows="5" placeholder="Describe the service needed"></textarea>
 <button type="submit">Request Booking</button>
 </form>
 </div>
 </section>
 
 <footer>
-<p>Contact: info@everything-else-llc.com | 228-239-3631</p>
+<p>Email: info@everything-else-llc.com | Phone: 228-239-3631</p>
 </footer>
-
 </body>
 </html>
